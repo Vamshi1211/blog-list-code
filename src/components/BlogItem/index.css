@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+}
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.date {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.description {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
